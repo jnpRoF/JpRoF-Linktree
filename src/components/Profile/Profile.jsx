@@ -19,7 +19,7 @@ const Profile = () => {
         <h2 id="twitter">OgbonnayaJohns3</h2>
         {/* <h3 id="slack">OgbonnayaJohns3</h3> */}
       </div>
-      <img src={Icon} className="share_icon" />
+      <img src={Icon} className="share_icon" alt="" />
     </div>
   );
 };
