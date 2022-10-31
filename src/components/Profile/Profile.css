@@ -4,6 +4,13 @@
   border-radius: 50%;
   cursor: pointer;
 }
+#profile__img:hover {
+  opacity: 0.7;
+}
+
+.img_wrap:hover .cam {
+  display: block;
+}
 .profile_cont {
   display: flex;
   justify-content: center;
@@ -15,19 +22,18 @@
   position: relative;
 }
 .cam {
-  background-color: red;
+  background-color: transparent;
   position: absolute;
   right: 44%;
   bottom: 20px;
+  display: none;
+  transition: 1s;
 }
+
 .share_icon {
   position: absolute;
   right: 400px;
 }
 #twitter {
   margin: 15px 0;
-}
-.profile_img_cont {
-  height: 100%;
-  width: 100%;
 }
