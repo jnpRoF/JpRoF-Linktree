@@ -2,7 +2,7 @@ import data from "../../constants/data";
 import Link from "../Link/Link";
 const LinkSection = () => {
   return (
-    <div style={{ border: "2px solid" }}>
+    <div>
       {data?.map(($link, index) => {
         return (
           <Link
