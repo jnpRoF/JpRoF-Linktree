@@ -6,13 +6,11 @@ const Profile = () => {
     <div className="profile_cont">
       <div className="profile_wrap">
         <div className="img_wrap">
-          {/* <div className="profile_img_cont"> */}
           <img
             src="https://avatars.githubusercontent.com/u/97938411?v=4"
             alt=""
             id="profile__img"
           />
-          {/* </div> */}
           <img src={camera} alt="" className="cam" />
         </div>
         <h2 id="twitter">OgbonnayaJohns3</h2>

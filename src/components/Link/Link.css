@@ -1,8 +1,14 @@
 .linkCont {
   height: 90px;
-  background-color: #ccc;
+  background-color: #1018280d;
   margin: 20px;
   border-radius: 10px;
+}
+.linkCont:hover {
+  background-color: #d0d5dd;
+}
+.linkCont:focus {
+  background-color: #98a2b3;
 }
 .link {
   height: 100%;

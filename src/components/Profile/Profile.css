@@ -32,7 +32,8 @@
 
 .share_icon {
   position: absolute;
-  right: 400px;
+  right: 300px;
+  cursor: pointer;
 }
 #twitter {
   margin: 15px 0;
