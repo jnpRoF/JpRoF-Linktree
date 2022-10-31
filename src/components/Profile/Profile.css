@@ -24,7 +24,7 @@
 .cam {
   background-color: transparent;
   position: absolute;
-  right: 44%;
+  right: 200px;
   bottom: 20px;
   display: none;
   transition: 1s;
@@ -34,6 +34,13 @@
   position: absolute;
   right: 300px;
   cursor: pointer;
+}
+.more_icon {
+  display: none;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 10px;
 }
 #twitter {
   margin: 15px 0;

@@ -11,3 +11,16 @@ footer {
 .ft_text {
   font-weight: bold;
 }
+
+@media (max-width: 400px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ft-text2 {
+    margin: 10px 0;
+  }
+  .more_icon {
+    display: block;
+  }
+}

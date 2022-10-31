@@ -1,5 +1,6 @@
 import camera from "../../assets/camera-01.png";
 import Icon from "../../assets/Icon.png";
+import More from "../../assets/more.png";
 import "./Profile.css";
 const Profile = () => {
   return (
@@ -17,6 +18,7 @@ const Profile = () => {
         {/* <h3 id="slack">OgbonnayaJohns3</h3> */}
       </div>
       <img src={Icon} className="share_icon" alt="" />
+      <img src={More} className="more_icon" alt="" />
     </div>
   );
 };
