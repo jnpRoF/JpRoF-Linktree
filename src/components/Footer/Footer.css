@@ -6,7 +6,7 @@
 footer {
   display: flex;
   justify-content: space-around;
-  align-items: end;
+  align-items: flex-end;
 }
 .ft_text {
   font-weight: bold;

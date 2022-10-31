@@ -8,8 +8,9 @@ const LinkSection = () => {
           <Link
             href={$link.uri}
             id={$link.id}
-            title={$link.title}
+            linkTitle={$link.linkTitle}
             key={index}
+            title={$link.title}
           />
         );
       })}

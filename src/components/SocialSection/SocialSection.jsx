@@ -2,7 +2,7 @@ import slackIcon from "../../assets/slack.png";
 import gitIcon from "../../assets/gitHub.png";
 import "./SocialSection.css";
 
-const SocialSection = ({}) => {
+const SocialSection = () => {
   return (
     <div className="social_section_container">
       <div className="social_section_wrapper">

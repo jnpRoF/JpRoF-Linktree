@@ -8,7 +8,7 @@ const Footer = () => {
         Zuri <b style={{ color: "red", fontSize: "50px" }}>.</b> Internship
       </h3>
       <p>HNG Internship 9 Frontend Task</p>
-      <img src={I4G} />
+      <img src={I4G} alt="" />
     </footer>
   );
 };
