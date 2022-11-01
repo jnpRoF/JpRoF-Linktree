@@ -12,7 +12,7 @@ footer {
   font-weight: bold;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   footer {
     flex-direction: column;
     align-items: flex-start;
@@ -22,5 +22,8 @@ footer {
   }
   .more_icon {
     display: block;
+  }
+  .share_icon {
+    display: none;
   }
 }
