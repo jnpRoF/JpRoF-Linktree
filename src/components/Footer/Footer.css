@@ -1,0 +1,29 @@
+.dot {
+  height: 10px;
+  width: 10px;
+  color: red;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.ft_text {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ft-text2 {
+    margin: 10px 0;
+  }
+  .more_icon {
+    display: block;
+  }
+  .share_icon {
+    display: none;
+  }
+}
