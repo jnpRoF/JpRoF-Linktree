@@ -1,0 +1,10 @@
+.social_section_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_section_wrapper {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+}
