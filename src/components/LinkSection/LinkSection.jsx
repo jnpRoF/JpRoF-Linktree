@@ -2,7 +2,7 @@ import data from "../../constants/data";
 import Link from "../Link/Link";
 const LinkSection = () => {
   return (
-    <div>
+    <>
       {data?.map(($link, index) => {
         return (
           <Link
@@ -14,7 +14,7 @@ const LinkSection = () => {
           />
         );
       })}
-    </div>
+    </>
   );
 };
 
