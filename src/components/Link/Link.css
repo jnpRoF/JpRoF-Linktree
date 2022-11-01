@@ -1,0 +1,15 @@
+.linkCont {
+  height: 90px;
+  background-color: #ccc;
+  margin: 20px;
+  border-radius: 10px;
+}
+.link {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-weight: bold;
+}

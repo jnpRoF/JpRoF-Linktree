@@ -2,12 +2,26 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  position: relative;
 }
 .profile_cont {
   display: flex;
   justify-content: center;
 }
 .profile_wrap {
-  width: 200px;
-text-align: center
+  text-align: center;
+}
+.cam {
+  background-color: red;
+  display: none;
+  /* position: absolute; */
+  /* right: 50px; */
+  /* bottom: 0; */
+}
+.share_icon {
+  position: absolute;
+  right: 100px;
+}
+#twitter {
+  margin: 15px 0;
 }
