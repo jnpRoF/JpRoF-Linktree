@@ -15,7 +15,7 @@ const Profile = () => {
           <img src={camera} alt="" className="cam" />
         </div>
         <h2 id="twitter">OgbonnayaJohns3</h2>
-        {/* <h3 id="slack">OgbonnayaJohns3</h3> */}
+        {/* <h3 id="slack">JpRoF</h3> */}
       </div>
       <img src={Icon} className="share_icon" alt="" />
       <img src={More} className="more_icon" alt="" />
